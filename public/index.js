@@ -1,5 +1,5 @@
 import LogoImg from "./asset/Logo.png";
-import HeroImg from "./asset/Hero.jpg";
+import HeroImg from "./asset/hero.jpg";
 import Cover1 from "./asset/cover1.jpg";
 import Cover2 from "./asset/cover2.jpg";
 import Cover3 from "./asset/cover3.jpg";
