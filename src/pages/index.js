@@ -30,7 +30,7 @@ export default function Home() {
         <Footer />
         <Script
           async
-          src="https://www.googletagmanager.com/gtag/js?id=G-GYHCC3V7DH"
+          src="https://www.googletagmanager.com/gtag/js?id=G-DS2J17P930"
           strategy="afterInteractive"
         />
         <Script
@@ -41,7 +41,7 @@ export default function Home() {
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
-    gtag('config', 'G-GYHCC3V7DH');
+    gtag('config', 'G-DS2J17P930');
   `,
           }}
         />
