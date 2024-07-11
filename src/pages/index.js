@@ -8,6 +8,7 @@ import {
   Footer,
 } from "@/components";
 import Head from "next/head";
+import Script from "next/script";
 
 export default function Home() {
   return (
@@ -27,6 +28,23 @@ export default function Home() {
           <Testimonials />
         </div>
         <Footer />
+        <Script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-GYHCC3V7DH"
+          strategy="afterInteractive"
+        />
+        <Script
+          id="google-tag-manager"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-GYHCC3V7DH');
+  `,
+          }}
+        />
       </main>
     </div>
   );
